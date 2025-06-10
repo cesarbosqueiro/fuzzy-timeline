@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace FTimeline\FuzzyTimeline;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class FuzzyTimelinePlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'fuzzy-timeline';
     }
 
     public function register(Panel $panel): void
