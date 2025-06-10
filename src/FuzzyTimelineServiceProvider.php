@@ -8,13 +8,13 @@ use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
+use FTimeline\FuzzyTimeline\Commands\FuzzyTimelineCommand;
+use FTimeline\FuzzyTimeline\Testing\TestsFuzzyTimeline;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use FTimeline\FuzzyTimeline\Commands\FuzzyTimelineCommand;
-use FTimeline\FuzzyTimeline\Testing\TestsFuzzyTimeline;
 
 class FuzzyTimelineServiceProvider extends PackageServiceProvider
 {
